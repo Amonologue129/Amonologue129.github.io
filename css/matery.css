@@ -602,10 +602,11 @@ header .go-back i {
 }
 
 .bg-cover .title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
+    font-family: '华文行楷';
 }
 
 .bg-cover .description {
