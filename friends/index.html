@@ -878,20 +878,64 @@
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
-<script src="/libs/valine/Valine.min.js"></script>
+<!-- <script src="/libs/valine/Valine.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/gh/small-rose/small-rose.github.io/libs/valine/Valine.min.js"></script>
 <script>
+    // new Valine({
+    //     el: '#vcomments',
+    //     appId: 'DDpiijPEJyTDuJbSIh2QhTE1-gzGzoHsz',
+    //     appKey: '2gFHGtLyGRVjXvAYyErbGqvu',
+    //     notify: 'true' === 'true',
+    //     verify: 'false' === 'true',
+    //     visitor: 'true' === 'true',
+    //     avatar: 'monsterid',
+    //     pageSize: '10',
+    //     lang: 'zh-cn',
+    //     placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+    // });
+    let metaPlaceholder = {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"} ;
+    //这里要换行
     new Valine({
-        el: '#vcomments',
-        appId: 'DDpiijPEJyTDuJbSIh2QhTE1-gzGzoHsz',
-        appKey: '2gFHGtLyGRVjXvAYyErbGqvu',
-        notify: 'true' === 'true',
-        verify: 'true' === 'true',
-        visitor: 'true' === 'true',
-        avatar: 'mm',
-        pageSize: '10',
-        lang: 'zh-cn',
-        placeholder: 'just go go'
-    });
+            el: '#vcomments',
+            appId: 'DDpiijPEJyTDuJbSIh2QhTE1-gzGzoHsz',
+            appKey: '2gFHGtLyGRVjXvAYyErbGqvu',
+            notify: 'true' === 'true',
+            verify: 'false' === 'true',
+            visitor: 'true' === 'true',
+            avatar: 'monsterid',
+            pageSize: '10',
+            lang: 'zh-CN',
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+            meta: ["nick", "mail", "link"],
+            recordIP: 'true' === 'true',
+            enableQQ: 'monsterid',
+            requiredFields: ["0ca86dc448a6a3c94e63ce8f58ac9dfb"],
+            master: ["0ca86dc448a6a3c94e63ce8f58ac9dfb"],
+            friends: ["c08508165c8eba9a77f8c2853xxxx09e", "901345d4c91ddfd8db0f175bbcfff0c8", "1512958e18378c98b498d5effe3e76ff"],
+            tagMeta: ["博主", "小伙伴", "访客"],
+            metaPlaceholder: metaPlaceholder,
+        });
+        
+    document.body.addEventListener('click', function(e) {
+    if (e.target.classList.contains('vsubmit')) {
+        const email = document.querySelector('input[type=email]');
+        const nick = document.querySelector('input[name=nick]');
+        const reg = /^[A-Za-z0-9_-\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+        if (!email.value || !nick.value || !reg.test(email.value)) {
+            const str = `<div class="valert txt-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+            const vmark = document.querySelector('.vmark');
+            vmark.innerHTML = str;
+            vmark.style.display = 'block';
+
+            e.stopPropagation();
+
+            setTimeout(function() {
+                vmark.style.display = 'none';
+                vmark.innerHTML = '';
+            }, 2500);
+        }
+    }
+    }, true);
 </script>
 
             
