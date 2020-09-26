@@ -551,14 +551,14 @@
     $(function () {
         new DPlayer({
             container: document.getElementById('dplayer'),
-            autoplay: 'true' === 'true',
+            autoplay: 'false' === 'true',
             theme: '#42b983',
             loop: 'false' === 'true',
             lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
-            preload: 'none',
+            preload: 'auto',
             volume: Number('0.7'),
             video: {
-                url: 'https://v.qq.com/x/cover/wkfi7sdq44mto0i/p0022gi2p3m.html',
+                url: 'https://cdn.jsdelivr.net/gh/small-rose/small-rose.github.io@master/medias/wl.mp4',
                 pic: '',
                 thumbnails: ''
             }
