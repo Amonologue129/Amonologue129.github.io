@@ -8,7 +8,7 @@
       <link href="2020/09/25/hou-lai-yu-jian-ta/"/>
       <url>2020/09/25/hou-lai-yu-jian-ta/</url>
       
-        <content type="html"><![CDATA[<pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">auto_detect</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span>  <span class="token key atrule">wrap</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">hljs</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token comment" spellcheck="true"># 关闭原有 的代码高亮，使用自己的</span><span class="token key atrule">prism_plugin</span><span class="token punctuation">:</span>  <span class="token key atrule">mode</span><span class="token punctuation">:</span> <span class="token string">'preprocess'</span>    <span class="token comment" spellcheck="true"># realtime/preprocess</span>  <span class="token key atrule">theme</span><span class="token punctuation">:</span> <span class="token string">'tomorrow'</span>  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false    </span><span class="token comment" spellcheck="true"># default false</span>  custom_css<span class="token punctuation">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h1 id="后来遇见他，陪我春秋冬夏"><a href="#后来遇见他，陪我春秋冬夏" class="headerlink" title="后来遇见他，陪我春秋冬夏"></a>后来遇见他，陪我春秋冬夏</h1><pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">auto_detect</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span>  <span class="token key atrule">wrap</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">hljs</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token comment" spellcheck="true"># 关闭原有 的代码高亮，使用自己的</span><span class="token key atrule">prism_plugin</span><span class="token punctuation">:</span>  <span class="token key atrule">mode</span><span class="token punctuation">:</span> <span class="token string">'preprocess'</span>    <span class="token comment" spellcheck="true"># realtime/preprocess</span>  <span class="token key atrule">theme</span><span class="token punctuation">:</span> <span class="token string">'tomorrow'</span>  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false    </span><span class="token comment" spellcheck="true"># default false</span>  custom_css<span class="token punctuation">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
       <categories>
@@ -31,25 +31,13 @@
     
     
     <entry>
-      <title>我们的青春</title>
+      <title></title>
       <link href="2020/09/25/wo-men-de-qing-chun/"/>
       <url>2020/09/25/wo-men-de-qing-chun/</url>
       
-        <content type="html"><![CDATA[<h1 id="我们的青春啊"><a href="#我们的青春啊" class="headerlink" title="我们的青春啊"></a>我们的青春啊</h1><h1 id="在记忆里春根发芽"><a href="#在记忆里春根发芽" class="headerlink" title="在记忆里春根发芽"></a>在记忆里春根发芽</h1><p><img src="https://i.loli.net/2020/09/26/lzJDpk3XPIxrw5f.png" alt="image-20200926082908566"></p>]]></content>
+        <content type="html"><![CDATA[<p>title: 我们的青春</p><p>cover: true</p><p>author: 殿下<br>tags:</p><ul><li>日常</li></ul><p>categories:</p><ul><li>生活</li></ul><p>date: 2020-09-25 21:18:00</p><h1 id="我们的青春啊"><a href="#我们的青春啊" class="headerlink" title="我们的青春啊"></a>我们的青春啊</h1><h1 id="在记忆里春根发芽"><a href="#在记忆里春根发芽" class="headerlink" title="在记忆里春根发芽"></a>在记忆里春根发芽</h1><p><img src="https://i.loli.net/2020/09/26/lzJDpk3XPIxrw5f.png" alt="image-20200926082908566"></p>]]></content>
       
       
-      <categories>
-          
-          <category> 生活 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 日常 </tag>
-            
-        </tags>
       
     </entry>
     
