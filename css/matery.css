@@ -321,10 +321,11 @@ header nav .brand-span {
 }
 
 header .brand-logo .logo-img {
-    height: 60px;
-    border-radius: 30px;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px;
     vertical-align: middle;
-    padding-bottom: 6px;
+    /* padding-bottom: 6px; */
 }
 
 header .brand-logo .logo-span {
